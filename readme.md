@@ -40,4 +40,4 @@ No fully working compiler = no language features yet :(
 ## Goals
 - Functions.
 - Variable type keywords 'INT', 'FLOAT', 'STRING', instead of the universal 'LET' keyword.
-- Make an universal 'END' keyword to end any block of code (could also do scopes with curly braces).
+- Make an universal 'END' keyword to end any block of code.
