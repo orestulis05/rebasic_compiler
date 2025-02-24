@@ -29,7 +29,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 
 #[cfg(test)]
-fn tests() {
+fn _tests() {
     use tests::*;
 
     // Lexer tests
