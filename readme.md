@@ -1,5 +1,5 @@
 # REBASIC Compiler 
-Made by following [Austin Z. Henley's Teeny Tiny compiler tutorial (web)](https://austinhenley.com/blog/teenytinycompiler1.html) in Python, writing my own version in Rust.
+A BASIC-like programming language that was made by following [Austin Z. Henley's Teeny Tiny compiler tutorial (web)](https://austinhenley.com/blog/teenytinycompiler1.html) in Python, writing my own version in Rust.
 
 ## Why?
 The purpose of this project was to learn more of Rust, and of course - get to know how does a compiler work on a deeper level.
