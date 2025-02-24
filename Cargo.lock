@@ -3,14 +3,6 @@
 version = 4
 
 [[package]]
-name = "basic_compiler"
-version = "0.1.0"
-dependencies = [
- "strum",
- "strum_macros",
-]
-
-[[package]]
 name = "heck"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -32,6 +24,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0e4dccaaaf89514f546c693ddc140f729f958c247918a13380cccc6078391acc"
 dependencies = [
  "proc-macro2",
+]
+
+[[package]]
+name = "rebcc"
+version = "0.1.0"
+dependencies = [
+ "strum",
+ "strum_macros",
 ]
 
 [[package]]

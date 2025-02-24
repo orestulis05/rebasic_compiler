@@ -1,17 +1,21 @@
-# REBASIC Compiler 
+# rebcc (REBASIC Compiler) 
 A [BASIC](https://en.wikipedia.org/wiki/BASIC)-like programming language compiler that was made by following [Austin Z. Henley's Teeny Tiny compiler tutorial](https://austinhenley.com/blog/teenytinycompiler1.html) in Python, writing my own version in Rust.
 
 ## Why?
 - For general knowledge of programming concepts.
 - To learn more Rust.
 - To know how does a compiler work on a deeper level.
-- To learn how to properly document projects (to learn markdown).
-- To learn how to design tests for safe updates.
+- To learn how to properly document projects (to learn Markdown).
+- To learn how to design proper tests.
+- To learn the basics of git and its commands.
+- To learn and practice Neovim.
 
 ## Example of REBASIC syntax
 ```
 PRINT "How many fibonacci numbers do you want?"
 INPUT nums
+
+# This is a comment.
 
 LET a = 0
 LET b = 1
@@ -24,18 +28,8 @@ LET nums > 0 DO
 ENDWHILE
 ```
 
-## How does it work?
-### By these 3 stages of compilation:
-1. **Lexical analysis (tokenization)** - the source code gets broken down into tokens;
-2. **Syntax analysis (parsing)** - checking if the tokens are in correct order, rules of the language are being followed;
-3. **Command emission** - passing commands to a lower-level programming language and running them.
-
-## Features
-### Compiler-wise
-- A functional Lexer.
-
-### Language-wise
-No fully working compiler = no language features yet :(
+## How to use rebcc 
+WIP
 
 ## Goals
 - Functions.

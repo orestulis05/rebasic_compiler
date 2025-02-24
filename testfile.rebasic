@@ -1,0 +1,2 @@
+PRINT "this is a message"
+LET variable = 5 

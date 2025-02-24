@@ -86,7 +86,7 @@ impl Lexer {
 
     pub fn abort(&self, message: String){
         println!("Lexing error on line {}: {}", self.current_line, message);
-        std::process::exit(0)
+        panic!("Stopping compilation.");
     }
 
     pub fn next_char(&mut self){
