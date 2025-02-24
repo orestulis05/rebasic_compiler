@@ -1,5 +1,5 @@
 # REBASIC Compiler 
-A BASIC-like programming language that was made by following [Austin Z. Henley's Teeny Tiny compiler tutorial (web)](https://austinhenley.com/blog/teenytinycompiler1.html) in Python, writing my own version in Rust.
+A [BASIC](https://en.wikipedia.org/wiki/BASIC)-like programming language that was made by following [Austin Z. Henley's Teeny Tiny compiler tutorial (web)](https://austinhenley.com/blog/teenytinycompiler1.html) in Python, writing my own version in Rust.
 
 ## Why?
 The purpose of this project was to learn more of Rust, and of course - get to know how does a compiler work on a deeper level.
@@ -37,7 +37,7 @@ No fully working compiler = no language features :(
 ### By these 3 stages of compilation:
 1. **Lexical analysis (tokenization)** - the source code gets broken down into tokens;
 2. **Syntax analysis (parsing)** - checking if the tokens are in correct order, rules of the language are being followed;
-3. **Command emission - passing** commands to a lower-level programming language and running them.
+3. **Command emission** - passing commands to a lower-level programming language and running them.
 
 ## What did I learn?
 - How Lexer works and that making a working Lexer is an annoying part of building a compiler (at least for me, a poor junior programmer).
