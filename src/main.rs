@@ -40,7 +40,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         token = lexer.get_token();
     }
 
-    println!("Lexed successfuly!");
     Ok(())
 }
 
