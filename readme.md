@@ -25,7 +25,7 @@ ENDWHILE
 - A functional Lexer.
 
 ### Language-wise
-No fully working compiler = no language features :(
+No fully working compiler = no language features yet :(
 
 ## What I want to implement myself
 - Functions.
