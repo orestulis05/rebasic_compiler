@@ -32,7 +32,6 @@ No fully working compiler = no language features :(
 - Variable type keywords 'INT', 'FLOAT', 'STRING', instead of the universal 'LET' keyword.
 - Make an universal 'END' keyword to end any block of code (or should I do scopes with curly braces? hmmmmmm...).
 
-
 ## How does it work?
 ### By these 3 stages of compilation:
 1. **Lexical analysis (tokenization)** - the source code gets broken down into tokens;
